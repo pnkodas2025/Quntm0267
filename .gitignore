@@ -1,6 +1,5 @@
 # ignore local secrets
 /web/config.php
-/web/db_credentials.php
 /vendor/
 /.env
 /.idea
