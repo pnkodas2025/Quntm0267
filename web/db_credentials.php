@@ -11,4 +11,7 @@ if (!defined('DB_PASS')) define('DB_PASS', 'Quantam@2026');
 // Optional: define DB_PORT if needed
 // if (!defined('DB_PORT')) define('DB_PORT', '3306');
 
+// Admin diagnostics token - set a strong secret on your host and do NOT commit that file in real deployments.
+if (!defined('ADMIN_TOKEN')) define('ADMIN_TOKEN', 'change_me_now');
+
 ?>
