@@ -6,4 +6,3 @@
 /node_modules
 .DS_Store
 sql/final_dump.sql
-scripts/seed.php
